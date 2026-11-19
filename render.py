@@ -44,47 +44,47 @@ def wrap(draw, text, fnt, width):
 
 
 LEADS = [
-    ("TRUMP, XI & PUTIN MEET IN SHENZHEN",
-     "Xi hugs Trump on the tarmac as the APEC trilateral opens; Ukraine, Iran and AI on the table. Europe is absent.",
+    ("TRUMP, XI & PUTIN DUE IN SHENZHEN",
+     "Xi welcomes Trump as the first-ever APEC trilateral is due to open; nuclear arms, Ukraine and Iran on the table.",
      "handshake", NAVY),
     ("US-IRAN WAR WIDENS ACROSS THE GULF",
-     "Iran hits US bases in Kuwait and Bahrain again; the US struck a missile site on Qeshm Island on 17 Nov.",
+     "Iran targets US bases in Kuwait and Bahrain; the US struck a missile site on Qeshm Island on 17 Nov.",
      "missile", RED),
     ("ANTHROPIC DEBUTS AS ANT AT $83",
-     "Claude-maker lists on Nasdaq at ~$1.5tn, the biggest IPO ever; 825m shares raise about $68.5bn.",
+     "Claude-maker lists on Nasdaq at ~$1.5tn, the biggest IPO ever; 980m shares raise $81.3bn.",
      "chart", TEAL),
     ("GTA VI GOES ON SALE WORLDWIDE",
-     "Gamers enter Vice City after a 13-year wait; the global rollout begins in the UK and beyond.",
+     "Gamers enter Vice City after a 13-year wait; the global rollout begins in New Zealand at midnight.",
      "game", (40, 40, 60)),
-    ("JEFFRIES TO BE FIRST BLACK SPEAKER",
-     "Democrats nominate Hakeem Jeffries to lead the House, a first for an African-American.",
+    ("JEFFRIES NOMINATED FOR SPEAKER",
+     "Democrats nominate Hakeem Jeffries 251-11; the full House votes Jan 3 — he would be the first Black Speaker.",
      "capitol", NAVY),
     ("CYCLONE AKVAN BEARS DOWN ON INDIA",
-     "Landfall due at 145 km/h between Machilipatnam and Puri; Odisha moves 200,000 people to safety.",
+     "Gusting to 145 km/h, landfall due 20 Nov on the Andhra coast; Odisha lines up 200,000 people for evacuation.",
      "cyclone", TEAL),
     ("VAN GOGH SELLS FOR RECORD $190.4m",
-     "The painting sets a record at auction after a row over its Nazi-era history.",
+     "Blossoming Chestnut Trees sets a record at auction after a row over its Nazi-era history.",
      "painting", GOLD),
     ("VOYAGER 1 REACHES ONE LIGHT-DAY",
-     "NASA's probe, 50 years after launch, is now a full light-day from Earth.",
+     "NASA's probe, launched in 1977, crossed one light-day on 18 Nov; a signal now takes a full day.",
      "rocket", NAVY),
     ("NORTH KOREA FIRES MISSILES",
-     "Pyongyang launches ballistic missiles hours after a US-South Korea-Japan drill ends.",
+     "Seoul says Pyongyang fired about 10 short-range ballistic missiles from Wonsan, its 17th launch of 2026.",
      "burst", RED),
     ("MYANMAR FACES GENOCIDE VERDICT",
-     "The UN court rules on the Rohingya massacres in a historic case for Myanmar.",
+     "The UN court is due to rule today on the Rohingya genocide case in a historic hearing for Myanmar.",
      "scales", TEAL),
     ("ISRAELI TANKS CROSS GAZA LINE",
-     "A rare ground incursion goes beyond the Yellow Line as four nations urge aid into flooded Gaza.",
+     "A rare ground incursion goes beyond the Yellow Line near Nuseirat to destroy a tunnel, Hamas says.",
      "tank", RED),
     ("FED SIGNALS MORE RATE HIKES",
-     "Minutes show most officials expect further hikes if inflation and jobs stay hot.",
+     "Minutes, out 18 Nov, show almost all expect a December hike; inflation hit 3.6% in September.",
      "dollar", GOLD),
 ]
 
 BRIEFS = [
     "Crimean Bridge attacked again, Russian official says",
-    "Nvidia's acting CEO Kress promises earlier pay rises",
+    "Nvidia's interim CEO Kress promises earlier pay rises",
     "Nvidia stops H-series chip shipments to China",
     "EU proposes a \u20ac45bn Ukraine loan, repaid by Russia",
     "Australia sanctions Israeli settlers in West Bank",
@@ -106,7 +106,7 @@ BRIEFS = [
     "German climber survives a 100-metre fall in the Alps",
     "Russian held for spying on Palantir over Ukraine aid",
     "Congress targets Modi government over rising prices",
-    "Islam set to be world's largest religion by 2035: Pew",
+    "Pew: Islam is the fastest-growing major religion",
     "World COPD Day puts focus on early diagnosis",
     "McDonald's abuse inquiry: girls 'waited to turn 18'",
     "French minister: M\u00e9lenchon could win the presidency",
@@ -115,7 +115,7 @@ BRIEFS = [
     "Stocks fall on Gulf tensions; Tokyo scrambles jets",
     "NGO: Israel limits care for 1,100 child amputees",
     "Germany charges Ilona W. with spying for Russia",
-    "S. Africa build a big lead v Bangladesh at Wanderers",
+    "S. Africa builds a big lead v Bangladesh at Wanderers",
 ]
 
 NUMBERS = [
@@ -124,10 +124,13 @@ NUMBERS = [
     ("145 km/h", "AKVAN"), ("50y", "VOYAGER 1"),
 ]
 
-# pin positions (x, y) on the map, one per lead
-PINS = [(860, 190), (565, 220), (160, 190), (440, 170), (185, 215),
-        (690, 225), (455, 185), (115, 225), (905, 200), (735, 245),
-        (550, 205), (140, 245)]
+# pin positions (x, y) on the map, one per lead — each pin sits on the
+# land/sea where its story happened (checked against the blobs in
+# draw_map: N America 60-180, S America 210-330, Europe 430-560,
+# Africa 580-700, Asia 740-920, Oceania 855-940).
+PINS = [(860, 195), (740, 225), (155, 195), (445, 175), (170, 215),
+        (810, 235), (465, 195), (115, 225), (905, 200), (855, 230),
+        (685, 195), (155, 240)]
 
 
 def draw_icon(d, kind, x, y, s, color):

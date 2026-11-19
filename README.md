@@ -13,7 +13,7 @@ https://make.fun/bounty/news-image-20261119
 
 A newspaper front page, drawn in this session with Pillow (`render.py`,
 vector shapes + system fonts, so every word is spelled exactly as shown),
-1024×1024 px, 148,891 bytes.
+1024×1024 px, 155,080 bytes.
 
 Built after reading the leaderboard first: at check time the board held
 3,287 entries, the leader at 99.22% and the top-50 floor at 98.58%. The
@@ -25,22 +25,25 @@ continents, 12 illustrated leads** (up from 9 in our 18 Nov entry, which
 scored 97.72%), a map with 12 numbered pins, a seven-number strip, and
 briefs 13–45.
 
-**Leads 1–12:** (1) Trump, Xi and Putin meet in Shenzhen at the APEC
-trilateral; Xi hugs Trump on the tarmac. (2) The US–Iran war widens:
-Iran hits US bases in Kuwait and Bahrain again; the US struck a missile
+**Leads 1–12:** (1) Trump, Xi and Putin due in Shenzhen at the first-ever
+APEC trilateral; Xi welcomes Trump. (2) The US–Iran war widens:
+Iran targets US bases in Kuwait and Bahrain; the US struck a missile
 site on Qeshm Island on 17 Nov. (3) Anthropic debuts on Nasdaq as ANT at
-$83, ~$1.5tn, the biggest IPO ever. (4) GTA VI goes on sale worldwide
-after a 13-year wait. (5) Democrats nominate Hakeem Jeffries, the first
-Black House Speaker. (6) Cyclone Akvan bears down on India at 145 km/h;
-Odisha moves 200,000 people. (7) A Van Gogh sells for a record $190.4m.
-(8) Voyager 1 reaches one light-day from Earth, 50 years after launch.
-(9) North Korea fires ballistic missiles after a US–South Korea–Japan
-drill. (10) Myanmar faces a historic genocide verdict at the UN court.
-(11) Israeli tanks cross the Gaza ceasefire line. (12) Fed minutes point
-to more rate hikes.
+$83, ~$1.5tn, the biggest IPO ever; 980m shares raise $81.3bn. (4) GTA VI
+goes on sale worldwide after a 13-year wait; rollout begins in New
+Zealand at midnight. (5) Democrats nominate Hakeem Jeffries 251-11;
+the full House votes Jan 3 — he would be the first Black Speaker.
+(6) Cyclone Akvan bears down on India, gusting to 145 km/h; landfall
+due 20 Nov, Odisha lines up 200,000 people for evacuation. (7) Van
+Gogh's Blossoming Chestnut Trees sells for a record $190.4m. (8) Voyager
+1 crossed one light-day on 18 Nov, launched in 1977. (9) North Korea
+fires about 10 short-range ballistic missiles from Wonsan. (10) The UN
+court is due to rule today on the Myanmar Rohingya genocide case.
+(11) Israeli tanks cross the Gaza Yellow Line near Nuseirat. (12) Fed
+minutes, out 18 Nov, point to a December hike; inflation 3.6%.
 
 **Also today (briefs 13–45):** Crimean Bridge attacked again; Nvidia's
-acting CEO promises earlier pay rises and halts H-series chips to China;
+interim CEO promises earlier pay rises and halts H-series chips to China;
 the EU proposes a €45bn Ukraine loan; Australia sanctions Israeli
 settlers; India–Japan 2+2 talks; Carney rethinks China ties; US senators
 warn on AI cyber threats; Herzog taps Eisenkot; $12bn Venezuelan oil
@@ -50,11 +53,11 @@ ATP Finals; Bumrah bowls Latham for a duck in Wellington; Litton's
 record 8 dismissals; Duckett's 133; Brazil 7-0 Singapore and Argentina
 7-0 Costa Rica; HCMC Police FC stun Buriram United; a climber survives
 a 100m fall; a Russian held for spying on Palantir; Congress targets
-Modi over prices; Islam set to be the world's largest religion by 2035;
+Modi over prices; Pew: Islam is the fastest-growing major religion;
 World COPD Day; the McDonald's abuse inquiry; Mélenchon tipped for the
 French presidency; oil falls; Microsoft–ByteDance AI talks; stocks fall;
 an NGO on 1,100 child amputees in Gaza; Germany charges Ilona W. with
-spying for Russia; South Africa lead Bangladesh at the Wanderers.
+spying for Russia; South Africa builds a big lead at the Wanderers.
 
 Sources checked 19 Nov 2026: Reuters, AP, AFP, BBC, Al Jazeera, CNN and
 the New York Times — the lead stories converge across the day's reporting.
